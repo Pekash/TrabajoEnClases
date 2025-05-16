@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Modal</title>
+    
+</head>
+
+<body>
+    <div class="container py-3">
+        <h2 class="text-center">Películas</h2>
+        <hr>
+
+        <div class="row justify-content-end">
+            <div class="col-auto">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Nuevo Registro
+                </button>
+            </div>
+        </div>
+
+        <table class="table table-bordered table-dark mt-4">
+            <thead class="table-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Género</th>
+                    <th>Poster</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>1</td>
+                    <td>Ejemplo Película</td>
+                    <td>Descripción de ejemplo.</td>
+                    <td>Acción</td>
+                    <td></td>
+                    <td>
+                        <a href="#" class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#editarModal">Editar</a>
+                        <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#eliminarModal">Eliminar</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+     
+</body>
+
+</html>
